@@ -22,7 +22,9 @@ function App() {
         setCurrentSection={setCurrentSection}
       />
       <main className="bg-slate-700 text-white flex-grow">
-        {React.createElement(currentSection.comp, {})}
+        <section className="p-4">
+          {React.createElement(currentSection.comp, {})}
+        </section>
       </main>
       <Footer />
     </div>

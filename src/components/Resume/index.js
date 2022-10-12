@@ -1,7 +1,7 @@
 import React from "react";
 
 function Resume() {
-  return <section>todo</section>;
+  return <section>todo resume</section>;
 }
 
 export default Resume;

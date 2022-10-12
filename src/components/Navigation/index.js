@@ -3,15 +3,15 @@ import React from "react";
 function Navigation({ sections, currentSection, setCurrentSection }) {
   return (
     <nav className="p-2 flex">
-      {sections.map((section) => (
+      {sections.map(({ name, comp }) => (
         <div
           className={`p-1 cursor-pointer ${
-            section === currentSection && "text-amber-300"
+            name === currentSection.name && "text-amber-300"
           }`}
-          key={section}
-          onClick={() => setCurrentSection(section)}
+          key={name}
+          onClick={() => setCurrentSection({ name, comp })}
         >
-          {section}
+          {name}
         </div>
       ))}
     </nav>

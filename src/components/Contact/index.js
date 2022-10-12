@@ -1,7 +1,7 @@
 import React from "react";
 
 function Contact() {
-  return <section>todo</section>;
+  return <section>todo contact</section>;
 }
 
 export default Contact;

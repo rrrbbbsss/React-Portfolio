@@ -5,7 +5,9 @@ function Navigation({ sections, currentSection, setCurrentSection }) {
     <nav className="p-2 flex">
       {sections.map((section) => (
         <div
-          className={`p-1 ${section === currentSection && "text-amber-300"}`}
+          className={`p-1 cursor-pointer ${
+            section === currentSection && "text-amber-300"
+          }`}
           key={section}
           onClick={() => setCurrentSection(section)}
         >

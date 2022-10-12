@@ -7,10 +7,16 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
 function App() {
-  const sections = ["About Me", "Portfolio", "Contact", "Resume"];
+  const sections = ["About", "Portfolio", "Contact", "Resume"];
+  const [currentSection, setCurrentSection] = useState(sections[0]);
+
   return (
     <div className="flex flex-col h-screen">
-      <Header />
+      <Header
+        sections={sections}
+        currentSection={currentSection}
+        setCurrentSection={setCurrentSection}
+      />
       <main className="bg-slate-700 text-white flex-grow">
         <About />
         <Portfolio />

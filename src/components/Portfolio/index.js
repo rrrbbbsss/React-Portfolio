@@ -1,43 +1,46 @@
 import React from "react";
 import Project from "../Project";
 import imgQuiz from "../../assets/images/quiz.png";
+import imgFeeder from "../../assets/images/feeder.png";
+import imgDrunken from "../../assets/images/drunkenrfc.png";
+import imgScheduler from "../../assets/images/scheduler.png";
+import imgWeather from "../../assets/images/scheduler.png";
+import imgBlog from "../../assets/images/blog.png";
 
 function Portfolio() {
   const projects = [
     {
-      name: "Simple Quiz",
+      name: "Little Feeder",
       description:
-        "A simple and humble coding quiz that tests basic javascript knowledge.",
-      photo: imgQuiz,
-      link: "https://github.com/rrrbbbsss/simple-quiz",
+        "A barebones rss/atom feed reader. Allows you to add rss/atom feeds to track and lets you view the articles.",
+      photo: imgFeeder,
+      link: "https://github.com/rrrbbbsss/Little-Feeder",
     },
     {
-      name: "Simple Quiz",
+      name: "Drunken RFC",
       description:
         "A simple and humble coding quiz that tests basic javascript knowledge.",
-      photo: imgQuiz,
-      link: "https://github.com/rrrbbbsss/simple-quiz",
+      photo: imgDrunken,
+      link: "https://github.com/rrrbbbsss/DrunkenRFC",
     },
     {
-      name: "Simple Quiz",
+      name: "Naive-Tech-Blog",
       description:
-        "A simple and humble coding quiz that tests basic javascript knowledge.",
-      photo: imgQuiz,
-      link: "https://github.com/rrrbbbsss/simple-quiz",
+        "A naive tech blog that allows you to create posts and comment on them.",
+      photo: imgBlog,
+      link: "https://github.com/rrrbbbsss/Naive-Tech-Blog",
     },
     {
-      name: "Simple Quiz",
-      description:
-        "A simple and humble coding quiz that tests basic javascript knowledge.",
-      photo: imgQuiz,
-      link: "https://github.com/rrrbbbsss/simple-quiz",
+      name: "Work Day Scheduler",
+      description: "A simple and humble work day scheduler.",
+      photo: imgScheduler,
+      link: "https://github.com/rrrbbbsss/work-day-scheduler",
     },
     {
-      name: "Simple Quiz",
-      description:
-        "A simple and humble coding quiz that tests basic javascript knowledge.",
-      photo: imgQuiz,
-      link: "https://github.com/rrrbbbsss/simple-quiz",
+      name: "Weather Dashboard",
+      description: "A simple and humble weather dashboard.",
+      photo: imgWeather,
+      link: "https://github.com/rrrbbbsss/weather-dashboard",
     },
     {
       name: "Simple Quiz",

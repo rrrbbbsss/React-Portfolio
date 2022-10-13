@@ -12,7 +12,7 @@ function Project({ data }) {
       <img
         src={photo}
         alt={name}
-        class="w-full brightness-75 group-hover:brightness-100"
+        className="brightness-75 h-48 group-hover:brightness-100 object-contain"
       ></img>
       <h2 className="border w-full text-center group-hover:border-amber-300 group-hover:text-amber-300">
         {name}

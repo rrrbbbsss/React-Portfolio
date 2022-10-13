@@ -21,7 +21,7 @@ function App() {
         currentSection={currentSection}
         setCurrentSection={setCurrentSection}
       />
-      <main className="bg-slate-700 text-white flex-grow">
+      <main className="bg-slate-700 text-white flex-grow overflow-auto">
         <section className="p-4">
           {React.createElement(currentSection.comp, {})}
         </section>
